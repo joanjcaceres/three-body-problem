@@ -6,6 +6,7 @@ import imageio
 import os
 
 def three_body_problem(t, y):
+    #hola
     m1, m2, m3 = 1.01, 0.9, 1  # Masas de los cuerpos
     x1, y1, x2, y2, x3, y3, vx1, vy1, vx2, vy2, vx3, vy3 = y
     r12 = np.sqrt((x2-x1)**2 + (y2-y1)**2)
